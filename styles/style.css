@@ -1,0 +1,137 @@
+:root {
+   /* primary text */
+   --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+   --Soft-red: hsl(14, 88%, 65%);
+   /* gradient */
+   --Soft-violet: hsl(273, 75%, 66%);
+   --Soft-blue: hsl(240, 73%, 65%);
+   /* secondary text */
+   --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+   --Dark-grayish-blue: hsl(240, 6%, 50%);
+   /* dividers */
+   --Light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+body {
+   font-family: "Kumbh Sans", sans-serif;
+   font-size: 12px;
+}
+
+.background {
+   display: flex;
+   flex-direction: row;
+   padding-top: 100px;
+   justify-content: center;
+   max-width: 1440px;
+   min-width: 375px;
+   width: auto;
+   height: 765px;
+   background: linear-gradient(to top, var(--Soft-blue), var(--Soft-violet));
+}
+
+.container {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 920px;
+   height: 510px;
+   background-color: #fff;
+   border-radius: 20px;
+}
+
+.logo {
+   position: relative;
+   overflow: hidden;
+   min-width: 460px;
+   height: 510px;
+}
+
+.bg-pattern {
+   position: absolute;
+   top: -300px;
+   left: -564px;
+}
+
+.w-online {
+   position: absolute;
+   top: 60px;
+   left: -70px;
+}
+
+.w-online-mobile {
+   display: none;
+}
+
+.box {
+   position: absolute;
+   top: 200px;
+   left: -100px;
+}
+
+.faq {
+   width: 460px;
+   height: 390px;
+   max-height: 510px;
+   padding: 70px 95px 50px 0;
+   color: var(--Very-dark-desaturated-blue);
+}
+
+.faq h1 {
+   font-size: 2em;
+   font-weight: 700;
+   padding-bottom: 30px;
+}
+
+.hidden {
+   display: none;
+}
+
+.question {
+   display: flex;
+   flex-direction: column;
+   padding: 20px 0;
+   color: var(--Very-dark-grayish-blue);
+   border-bottom: 1px solid var(--Light-grayish-blue);
+}
+
+.question p {
+   width: 90%;
+   color: var(--Dark-grayish-blue);
+}
+
+.question #question:hover {
+   color: var(--Soft-red);
+}
+
+.title {
+   display: flex;
+   cursor: pointer;
+}
+
+.arrow {
+   padding-left: 10px;
+}
+
+.img-up {
+   transform: scaleY(-1);
+}
+
+.answer {
+   padding-top: 10px;
+   line-height: 1.2rem;
+}
+
+.bold {
+   font-weight: 700;
+   color: var(--Very-dark-desaturated-blue);
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+   padding: 20px;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
